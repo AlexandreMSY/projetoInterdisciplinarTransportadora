@@ -44,6 +44,8 @@ public class Main {
                     7 - Editar Carga Aerea
                     8 - Remover Carga Aerea
                     
+                    Digite a letra "s" para sair.
+                    
                     """);
 
             System.out.print("\n" + "Sua escolha: ");
@@ -210,6 +212,6 @@ public class Main {
                     break;
 
             }
-        }while (!escolha.equals("sair"));
+        }while (!escolha.equals("s"));
     }
 }
